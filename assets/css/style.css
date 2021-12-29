@@ -1,5 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
 nav{
     z-index: 5;
+}
+section h1{
+text-align: center;
 }
 .logo{
     max-height: 48px
@@ -16,3 +28,21 @@ object-position: center;
 .navbar{
     transition-duration: .25s, .25s;
     transition-timing-function: linear, ease-in-out;}
+.icons{
+    width: 271px;
+}
+.icons a{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    background-color : #17a3b8;
+}
+
+/* 
+@media (min-width: 1920px) and (max-width: 2560px)  {
+    .container{
+        margin-left: 76px;
+        margin-right: 76px;
+    }
+} */
