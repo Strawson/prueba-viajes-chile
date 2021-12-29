@@ -1,0 +1,18 @@
+nav{
+    z-index: 5;
+}
+.logo{
+    max-height: 48px
+}
+.hero{
+    margin-top: -74px;
+}
+.carousel-item{
+max-height: 927px;
+overflow: hidden;
+object-fit: cover;
+object-position: center;
+}
+.navbar{
+    transition-duration: .25s, .25s;
+    transition-timing-function: linear, ease-in-out;}
