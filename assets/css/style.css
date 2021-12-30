@@ -76,7 +76,7 @@ footer{
     margin-top: 30px;
     background-color : #17a3b8;
 }
-footer h2 {
+footer h3 {
     line-height: 2.3;
 }
 @media (max-width: 1200px){
