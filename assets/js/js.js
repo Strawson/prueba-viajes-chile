@@ -8,7 +8,7 @@ window.addEventListener('scroll',(e)=>{
   });
 
   function toggleNav() {
-    var element = document.getElementById("header");
+    const element = document.getElementById("header");
     
     element.classList.toggle("bg-black");
   };
