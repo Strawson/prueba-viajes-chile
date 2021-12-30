@@ -14,6 +14,10 @@ hr{
     border: 2px solid #17a3b8;
     opacity: 1;
 }
+#header{
+    transition-duration: .25s, .25s;
+    transition-timing-function: linear, ease-in-out;
+}
 .navbar h1{
     display: inline;
     line-height: 40px;
