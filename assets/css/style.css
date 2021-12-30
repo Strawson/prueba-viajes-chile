@@ -10,14 +10,51 @@ body{
 nav{
     z-index: 5;
 }
-section h1{
+hr{
+    border: 2px solid #17a3b8;
+    opacity: 1;
+}
+p {
+    font-size: 24px;
+}
+.navbar h1{
+    display: inline;
+    line-height: 40px;
+    font-size: 27px;
+}
+section h2{
 text-align: center;
 }
 .logo{
     max-height: 48px
 }
 .hero{
-    margin-top: -74px;
+    margin-top: -79px;
+}
+i{
+    text-align: center;
+    background-color: #17a3b8;
+    font-size: 52px;
+    /* Override Font Awesome */
+    line-height: 60px !important;
+}
+.card{
+    min-height: 600px;
+    max-width: 390px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.featured row{
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.card-img-top{
+    height: 226px;
+    object-fit: cover;
+    object-position: center;
+}
+.card-body{
+    background-color: #17a3b8;
 }
 .carousel-item{
 max-height: 927px;
@@ -39,10 +76,9 @@ footer{
     background-color : #17a3b8;
 }
 
-/* 
+
 @media (min-width: 1920px) and (max-width: 2560px)  {
-    .container{
-        margin-left: 76px;
-        margin-right: 76px;
+    .container-1920{
+       max-width: 1800px;
     }
-} */
+}  
